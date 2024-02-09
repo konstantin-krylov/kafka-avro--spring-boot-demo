@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  kafka:
+    producer:
+      properties:
+        replication.factor: 3
+    bootstrap-servers: localhost:9092, localhost:9093, localhost:9094
+    topic: test

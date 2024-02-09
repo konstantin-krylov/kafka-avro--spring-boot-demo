@@ -1,0 +1,19 @@
+{
+  "namespace": "com.kafka.dto",
+  "type": "record",
+  "name": "AvroMessage",
+  "fields": [
+    {
+      "name": "messageContent",
+      "type": "string"
+    },
+    {
+      "name": "messageId",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    }
+  ]
+}
